@@ -1,0 +1,15 @@
+﻿Build started 07/10/2014 22:58:36.
+     1>Project "K:\website\aStarpath-Picking\aStarpath\aStarpath.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\aStarpath.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         A:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"A:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\aStarpath.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         A:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"A:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\aStarpath.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt aStarpath.cpp
+         aStarpath.cpp
+     1>aStarpath.cpp(12): fatal error C1083: Cannot open include file: 'GL/glut.h': No such file or directory
+     1>Done Building Project "K:\website\aStarpath-Picking\aStarpath\aStarpath.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.16
